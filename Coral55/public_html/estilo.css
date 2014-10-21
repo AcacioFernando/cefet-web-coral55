@@ -87,3 +87,7 @@
     font-style: bold;
     color: #333;
 }
+.valor{
+    float: right;
+    padding-right: 15px;
+}
