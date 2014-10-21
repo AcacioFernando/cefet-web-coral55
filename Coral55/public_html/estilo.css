@@ -13,16 +13,77 @@
     font-family: Trebuchet MS;
     color: black;
     padding-left: 200px;
-  
+
 }
 #acai{
     color: #d027aa;
 }
 #lateral{
-    background-color: red;
+    width: 154px;
+    //float: left;
+
 }
 #ticket{
     position: fixed;
     left: 0;
     top: 295px; 
+}
+#cardapio{
+    width: 646px;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aac0ae;
+    position: relative;
+    bottom:550px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4) 49%);
+    font-size: 14px;
+    font-family: Verdana;
+    color: #333;
+}
+#cardapio h3{
+    font-size: 18px;
+    font-style: bold; 
+    
+}
+
+#recipiente{
+    width: 800px;
+
+    margin-left: auto; 
+    margin-right: auto;
+    position: static;
+    background-image:linear-gradient(to bottom, #f6f1b2, #4599b2);
+
+}
+
+#siri{
+    position: relative;
+    bottom: 90px;
+    right: 10px;
+}
+
+
+#bolhas{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+#peixe{
+    position: relative;
+    top:120px;
+    bottom:14px;
+    right: 44px;
+
+}
+
+#conteudo h2{
+    position: relative;
+    top: 100px;
+    -webkit-transform: rotate(-90deg);
+    font-family: Verdana;
+    font-size: 48px;
+    font-style: bold;
+    color: #333;
 }
