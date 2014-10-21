@@ -1,1 +1,28 @@
 @import "fonts/stylesheet.css";
+
+#cabecalho{
+    text-align: center;
+}
+#cabecalho h1{
+    font-size: 36px;
+    font-family: Ravie;
+    color: #e90c0c;
+}
+#cabecalho h2{
+    font-size: 24px;
+    font-family: Trebuchet MS;
+    color: black;
+    padding-left: 200px;
+  
+}
+#acai{
+    color: #d027aa;
+}
+#lateral{
+    background-color: red;
+}
+#ticket{
+    position: fixed;
+    left: 0;
+    top: 295px; 
+}
